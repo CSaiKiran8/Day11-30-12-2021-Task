@@ -1,0 +1,476 @@
+1Q)Fix the bugs in below snippet
+
+Code:-
+
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+Answer:-
+
+    <html lang="en">
+    <head>
+        <title>Document</title>
+    </head>
+    <body>
+        guvi
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div>
+            Guvi Geek Network 
+        </div>
+    </body>
+    </html>
+_______________________________________
+2Q)Try the below one
+
+Code:-
+
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+
+Answer:- 
+
+    <html lang="en">
+    <head>
+        <title>Document</title>    
+    </head>
+    <body>
+        guvi
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+        <div>
+            Guvi Geek Network
+        </div>
+    </body>
+    </html>
+_________________________________
+3Q)Design a contact us form with all fields as required.
+
+Answer:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Contact us</h3> 
+    <form >
+        Name:
+        <input type="text" required="" /><br/> <br/>
+        Address:
+        <input type="text" required="" /><br/> <br/>
+        E-mail:
+        <input type="text" required="" /><br/> <br/>
+        Phone:
+        <input type="number" required="" /><br/> <br/>
+        Contact me by:
+        <input type="radio" name="demo" required="" />E-Mail
+        <input type="radio" name="demo" required="" />Phone<br/> <br/>
+        Question for:
+        <input type="text" required="" /><br/> <br/>
+        Message:
+        <input type="text" required="" /><br/> <br/>
+        <input type="submit" value="Submit" />
+    </form>
+</body>
+</html>
+_________________________________
+4Q)Use certain HTML elements to display the following in a HTML page.
+
+Programming Languages
+	JavaScript
+		Angular
+		React
+		Vue.js
+	Python
+		Django Framework
+		Flask Framework
+	Java
+		Spring
+		Maven
+		Hibernate
+Database
+	MySQL
+	MongoDB
+	Cansandra
+
+Answer:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <li>Programming Languages
+    <ul>JavaScript
+        <ol type=a>
+            <li>Angular</li>
+            <li>React</li>
+            <li>Vue.js</li>
+        </ol>
+        </ul>
+    <ul>Python
+        <ol type=a>
+            <li>Django Framework</li>
+            <li>Flask Framework</li>
+        </ol>
+        </ul>
+    <ul>Java
+        <ol type=a>
+            <li>Spring</li>
+            <li>Maven</li>
+            <li>Hibernate</li>
+            </ol>
+        </ul>
+    </li>
+
+    <li>Database
+        <ul type="circle">
+            <li>MySQL</li>
+            <li>MongoDB</li>
+            <li>Casandra</li>
+        </ul> 
+    </li>
+</body>
+</html>
+_________________________________
+5Q)Create an element that helps you to open the https://google.com in separate new tab.
+
+Answer:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://google.com" target="_blank"><b>Google</b></a>
+</body>
+</html>
+___________________________________
+6Q)In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
+
+Answer:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>Employee type</label> <br />
+        Salaried: <input type="radio" name="Demo" id="" />
+        Own Business: <input type="radio" name="Demo" id="" />
+    </form>
+</body>
+</html>
+___________________________________
+7Q)Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png) - This link is not working, So
+   Sir gave us this below image.
+   - https://drive.google.com/file/d/1AXfg0NrmgbVZhDDioKSztIED28t55QTC/view?usp=sharing
+
+Answer:- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text] , input[type=number]{
+            border: none;
+            border-bottom: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        Firstname:
+        <input type="text" /> 
+        Lastname:
+        <input type="text" /><br/> <br/>
+        Address:
+        <input type="text" /><br/> <br/>
+        City:
+        <input type="text" />
+        State:
+        <input type="text" />
+        Zip:
+        <input type="number" /><br /><br />
+        Subscribe for:
+        <input type="checkbox" />1 year($19.91)
+        <input type="checkbox" />2 years($35.00) <br /><br />
+        Send me more information about: <br />
+        <input type="checkbox" />Computer-Zine <br />
+        <input type="checkbox" />Fishing-Zine <br />
+        <input type="checkbox" />Cai-O-Zine
+    </form>
+</body>
+</html>
+____________________________________
+8Q)Use the table tag to design given image Click here.
+
+Answer:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table class="" border="1   ">
+        <tr>
+            <th rowspan="2">State of Health</th>
+            <th colspan="2">Fasting Value </th>
+            <th>After Eating</th>
+        </tr>
+
+        <tr>
+            <th>Minimum</th>
+            <th>Maximum</th>
+            <td>2 hours after eating</td>
+        </tr>
+
+        <tr>
+            <th>Healthy</th>
+            <td>70</td>
+            <td>100</td>
+            <td>Less than 140</td>
+        </tr>
+
+        <tr>
+            <th>Pre-Diabetes</th>
+            <td>101</td>
+            <td>126</td>
+            <td>140 to 200</td>
+        </tr>
+
+        <tr>
+            <th>Diabetes</th>
+            <td>More than 126</td>
+            <td>N/A</td>
+            <td>More than 200</td>
+        </tr>
+        
+    </table>
+</body>
+</html>
+_____________________________________
+9Q)Write HTML input tags snippet to show default values for all Form elements.
+
+Answer:-
+
+Form Elements -
+<input type="text" name="text" id="text" value=""/>
+<input type="password" name="password" id="password" value=""/>
+<input type="email" name="email" id="email" value=""/>
+<input type="number" name="number" id="number" value=""/>
+<input type="range" name="range" id="range" value=""/>
+<input type="search" name="search" id="search" value=""/>
+<input type="radio" name="demo" id="gender" />Male
+<input type="radio" name="demo" id="gender" />Female
+<input type="checkbox" name="checkbox" id="checkbox" />B.TECH
+<input type="checkbox" name="checkbox" id="checkbox" />M.TEch
+<input type="date" name="date" id="date" value=""/>
+<input type="time" name="time" id="time" value=""/>
+<input type="color" name="color" id="color" value=""/>
+<input type="number" name="number" id="number" value=""/>
+_____________________________________
+10Q)In your, HTML page add the below line and Highlight it without using any CSS.
+
+	"HTML & CSS is awesome"
+
+Answer:-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <mark>"HTML & CSS is awesome"</mark>
+</body>
+</html>
+_____________________________________
+11Q)Create an HTML page, which should contain all types of input elements.
+
+Answer:- 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Input Types</title>
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <h1 align="center">HTML Input Types</h1>
+
+    <!-- input type text -->
+    <h2>Text Types</h2>
+    <form action="">
+      <label for="">Text Box</label>
+      <input type="text" name="text" id="text" />
+    </form>
+
+    <!-- input type password -->
+    <h2>Password Types</h2>
+    <form action="" method="">
+      <label for="">Password</label>
+      <input type="password" name="password" id="password" />
+    </form>
+
+    <!-- input type email -->
+    <h2>Email Types</h2>
+    <form action="" method="get">
+      <label for="">Email</label>
+      <input type="email" name="email" id="email" />
+    </form>
+
+    <!-- input type number -->
+    <h2>Number Types</h2>
+    <form action="" method="">
+      <label for="">Number</label>
+      <input type="number" name="number" id="number" />
+    </form>
+
+    <!-- input type range -->
+    <h2>Range Types</h2>
+    <form action="" method="">
+      <label for="">Range</label>
+      <input type="range" name="range" id="range" />
+    </form>
+
+    <!-- input type search -->
+    <h2>Search Types</h2>
+    <form action="" method="post">
+      <label for="">Search</label>
+      <input type="search" name="search" id="search" />
+    </form>
+
+    <!-- input type radio -->
+    <h2>Radio Types</h2>
+    <form action="">
+      <label for="">Gender</label>
+      Male:
+      <input type="radio" name="demo" id="gender" /> Female:<input
+        type="radio"
+        name="demo"
+        id="gender"
+      />
+      Others: <input type="radio" name="demo" />
+    </form>
+
+    <!-- input type CHeckbox type -->
+    <form action="">
+      <label for="">Highest Qualification</label>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <label for="">B.Tech</label>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <label for="">M.Tech</label>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+    </form>
+
+    <!-- input type date -->
+    <h2>Date Types</h2>
+    <form action="" method="">
+      <label for="">Date</label>
+      <input type="date" name="date" id="date" />
+    </form>
+
+    <!-- input type time -->
+    <h2>Time Types</h2>
+    <form action="" method="">
+      <label for="">Time</label>
+      <input type="time" name="time" id="time" />
+    </form>
+
+    <!-- input type datetime -->
+    <h2>Date Time Types</h2>
+    <form action="" method="">
+      <label for="">Date Time</label>
+      <input type="datetime" name="datetime" id="datetime" />
+    </form>
+
+    <!-- input type Number -->
+    <h2>Number Types</h2>
+    <form action="" method="">
+      <label for="">Number</label>
+      <input
+        type="number"
+        min="0"
+        max="101"
+        step="10"
+        name="number"
+        id="number"
+      />
+    </form>
+
+    <!-- input type color -->
+    <h2>Color Types</h2>
+    <form action="" method="">
+      <label for="">Color</label>
+      <input type="color" name="color" id="color" />
+    </form>
+
+    <input type="button" value="Submit" onclick="myFunction()" />
+  </body>
+</html>
