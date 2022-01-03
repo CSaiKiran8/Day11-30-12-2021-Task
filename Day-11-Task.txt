@@ -314,20 +314,19 @@ _____________________________________
 Answer:-
 
 Form Elements -
-<input type="text" name="text" id="text" value=""/>
-<input type="password" name="password" id="password" value=""/>
-<input type="email" name="email" id="email" value=""/>
-<input type="number" name="number" id="number" value=""/>
-<input type="range" name="range" id="range" value=""/>
-<input type="search" name="search" id="search" value=""/>
-<input type="radio" name="demo" id="gender" />Male
-<input type="radio" name="demo" id="gender" />Female
-<input type="checkbox" name="checkbox" id="checkbox" />B.TECH
-<input type="checkbox" name="checkbox" id="checkbox" />M.TEch
-<input type="date" name="date" id="date" value=""/>
-<input type="time" name="time" id="time" value=""/>
-<input type="color" name="color" id="color" value=""/>
-<input type="number" name="number" id="number" value=""/>
+<input type="text" name="text" id="text" defaultValue="sai"/>
+<input type="password" name="password" id="password" defaultValue="sai1234"/>
+<input type="email" name="email" id="email" defaultValue="sai@gmail.com"/>
+<input type="number" name="number" id="number" defaultValue="10"/>
+<input type="range" name="range" id="range" defaultValue=""/>
+<input type="search" name="search" id="search" defaultValue=""/>
+<input type="radio" name="demo" id="gender" defaultValue=""/>Male
+<input type="radio" name="demo" id="gender" defaultValue=""/>Female
+<input type="checkbox" name="checkbox" id="checkbox" defaultValue=""/>B.TECH
+<input type="checkbox" name="checkbox" id="checkbox" defaultValue=""/>M.TEch
+<input type="date" name="date" id="date" defaultValue="3-1-2022"/>
+<input type="time" name="time" id="time" defaultValue="1:30"/>
+<input type="color" name="color" id="color" defaultValue=""/>
 _____________________________________
 10Q)In your, HTML page add the below line and Highlight it without using any CSS.
 
